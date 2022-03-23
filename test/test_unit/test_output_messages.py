@@ -1,6 +1,6 @@
 import pytest
-import output_messages as om
-from all_setting import TEXT_COLOR_FOR_USER, TEXT_COLOR_FOR_PROGRAMMER, TEXT_COLOR_MAIN_MENU
+from setting import output_messages as om
+from setting.all_setting import TEXT_COLOR_FOR_USER, TEXT_COLOR_FOR_PROGRAMMER, TEXT_COLOR_MAIN_MENU
 
 for_test_color_text_for_user = "\033[34m"
 for_test_color_text_for_programmer = "\033[31m"
